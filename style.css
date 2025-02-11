@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+  
+body {
+    background-color: #45458f;
+    color: rgb(255, 255, 255);
+    height: 100vh;
+}
+
+p {
+    margin: 12px;
+    padding: 12px;
+}
+
+header {
+    margin: 12px;
+    padding: 12px; 
+}
+  
+@media (max-width: 570px) {
+    button div {
+        display: none;
+    }
+}
